@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: left;
+  margin-left: 50px;
+  color: #aa2422;
+  text-shadow: 1px 1px 1px black;
+  font-size: 3em;
+  height: 150px;
+  font-family: 'Eagle Lake', cursive;
+}
+
+img {
+  display: flex;
+  z-index: 1;
+  float: right;
+  margin-top: 20px;
+  height: 500px;
+
+}
+
+.game-start {
+  margin-top: 80px;
+  font-family: 'Eagle Lake', cursive;
+}
+
+footer {
+  background-color: #aa2422;
+  text-align: center;
+  color: rgb(234, 240, 242);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.quest {
+  font-family: 'Eagle Lake', cursive;
+
+  margin-top: 80px;
+}
+
+.quest h2 {
+  margin-bottom: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+
+.ending-form label {
+  font-weight: bold;
+}
+
+.ending-form input,
+label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 115px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: #efd00a;
+}
+
+.btn-yes {
+  background-color: #28a745;
+}
+
+.btn-no {
+  background-color: #ff0018;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 250px;
+  color: white;
+}
+
+.contact-form {
+  background-color: #f3eadd;
+  margin-top: 300px;
+}
